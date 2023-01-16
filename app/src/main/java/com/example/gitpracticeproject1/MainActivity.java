@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textView.findViewById(R.id.tv);
+        //textView.findViewById(R.id.tv);
         this.sum();
     }
 
