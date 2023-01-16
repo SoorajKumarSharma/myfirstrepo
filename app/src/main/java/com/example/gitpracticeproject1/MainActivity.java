@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
         int n1 = 225, n2 = 115, sum;
         sum = n1 + n2;
         Log.d("Sooraj","The sum of numbers is: "+sum);
-        Toast.makeText(MainActivity.this, "This is sum number is: "+sum, Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "The total sum number is: "+sum, Toast.LENGTH_SHORT).show();
     }
 }
