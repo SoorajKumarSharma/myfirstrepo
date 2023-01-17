@@ -17,4 +17,15 @@
         android:layout_marginBottom="100dp"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/butn"
+        android:text="FIRE ON GIT"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_below="@+id/getLocation"
+        />
+
 </RelativeLayout>
