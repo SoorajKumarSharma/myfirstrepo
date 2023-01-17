@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:id="@+id/getLocation"
-        android:text="Get Location"
+        android:text="Get data pull"
         android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="100dp"
