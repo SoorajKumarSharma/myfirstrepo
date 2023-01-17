@@ -11,7 +11,7 @@ public class Data_File extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data_file);
         
-        Toast.makeText(Data_File.this, "This is data file", Toast.LENGTH_SHORT).show();
+        Toast.makeText(Data_File.this, "This is Data_file class", Toast.LENGTH_SHORT).show();
 
     }
 }
