@@ -1,5 +1,6 @@
 package com.example.gitpracticeproject1;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -17,7 +18,8 @@ public class Data_File extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data_file);
-        
+        ActionBar actionBar=getSupportActionBar();
+        actionBar.setTitle("Data_File");
         Toast.makeText(Data_File.this, "This is Data_file class", Toast.LENGTH_SHORT).show();
         
         button=findViewById(R.id.getLocation);
